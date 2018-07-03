@@ -1,5 +1,6 @@
 body {
-    background: url(https://images.pexels.com/photos/988872/pexels-photo-988872.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+    /* background: url(https://images.pexels.com/photos/988872/pexels-photo-988872.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260); */
+    background: url(resource/annie-spratt-695511-unsplash.jpg);
     background-size: cover;
     background-position: center; 
 }
@@ -36,6 +37,9 @@ img {
     border-radius: 8px;
     max-width: 100%;
     height: auto;
+    box-shadow: 5px 10px;
+    border: 1px solid #8a4419;
+    border-style: inset;
 }
 h4 {
     text-indent: 50px;
